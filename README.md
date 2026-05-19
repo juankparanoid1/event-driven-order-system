@@ -163,9 +163,9 @@ Profiles:
 
 Configuration files:
 ```
-- application.yml
-- application-dev.yml
-- application-local.yml
+- application.properties
+- application-dev.properties
+- application-local.properties
 ```
 
 Example:
