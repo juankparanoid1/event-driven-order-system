@@ -1,0 +1,3 @@
+ALTER TABLE order_items
+ALTER COLUMN quantity TYPE NUMERIC(10,2)
+USING quantity::NUMERIC;
