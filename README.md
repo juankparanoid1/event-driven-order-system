@@ -153,6 +153,34 @@ docker-compose.yml
 ```
 
 ---
+# Environment Configuration
+
+The project uses Spring Profiles for environment-specific configuration.
+
+Profiles:
+- `local`
+- `dev`
+
+Configuration files:
+```
+- application.yml
+- application-dev.yml
+- application-local.yml
+```
+
+Example:
+```
+-Dspring.profiles.active=dev
+```
+
+This allows separating:
+
+- local development settings
+- production configuration
+- database credentials
+- Kafka configuration
+- logging levels
+
 
 # Running the Project
 
